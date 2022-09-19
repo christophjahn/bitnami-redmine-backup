@@ -28,7 +28,7 @@ in a safe location (typically a NAS or some kind of cloud storage):
 ## Backup content
 
 A single backup will be around 300 MB for a fresh system. This size
-stems from the fact that the entire `/opt/bitnami` is copied to
+stems from the fact that the entire `/opt/bitnami` directory is copied to
 the archive file. While this is somewhat inefficient, it is done
-to ensure that all binaries are available have the correct versions
+to ensure that all binaries are available and have the correct versions
 for the actual data.
